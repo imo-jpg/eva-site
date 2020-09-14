@@ -75,7 +75,8 @@ a:hover {
 
 #sub-page {
     background: #F35F46;
-    background: linear-gradient(0deg, #E62325 0%, rgba(252,131,92,1) 100%);
+    background: linear-gradient(0deg, #89A2F6 0%, #FC835C 100%);
+    /* background: linear-gradient(0deg, #E62325 0%, rgba(252,131,92,1) 100%); */
 }
 
 #sub-page .header a {
@@ -96,15 +97,18 @@ a:hover {
 }
 
 #sub-page .publications {
-    background: #F35F46;
+    /* background: #F35F46; */
+    background: #D28F95;
 }
 
 #sub-page .blog {
-    background: #EF4639;
+    /* background: #EF4639; */
+    background: #B596BB;
 }
 
 #sub-page .connect {
-    background: #E62325;
+    /* background: #E62325; */
+    background: #89A2F6;
 }
 
 #sub-page .content {
@@ -141,13 +145,22 @@ a:hover {
 }
 
 
-@media only screen and (max-width:600px) {
-    #main-page div{
-        overflow-x: scroll;
+@media only screen and (max-width:700px) {
+    
+    #main-page div {
+        display: block;
+        padding: 1% 5%;
     }
 
     #main-page h1 {
-        font-size: 10rem;
+        font-size: 4rem;
+    }
+
+    #main-page p {
+        font-size: 1rem;
+        padding-left: 0;
+        display: inline;
+        white-space: normal;
     }
 
     #main-page #name {
@@ -163,9 +176,30 @@ a:hover {
         justify-content: flex-start;
     }
 
+    #sub-page div {
+        display: block;
+        padding: 1% 5%;
+        height: auto;
+    }
+
+    #sub-page .content {
+        height: auto;
+    }
+
     #sub-page h1 {
         font-size: 4rem;
         white-space: normal;
+    }
+}
 
+@media only screen and (max-width:1024px) {
+    img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #main-page p {
+        font-size: 1.5rem;
     }
 }
