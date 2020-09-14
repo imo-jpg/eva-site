@@ -13,7 +13,8 @@ body {
 
 #main-page {
     background: #FC835C;
-    background: linear-gradient(0deg, #E62325 0%, rgba(252,131,92,1) 100%);
+    /* background: linear-gradient(0deg, #E62325 0%, rgba(252,131,92,1) 100%); */
+    background: linear-gradient(0deg, #89A2F6 0%, #FC835C 100%);
 }
 
 #main-page div {
