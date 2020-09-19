@@ -79,9 +79,9 @@ a:hover {
     /* background: linear-gradient(0deg, #E62325 0%, rgba(252,131,92,1) 100%); */
 }
 
-#sub-page .header a {
+/* #sub-page .header a {
     font-style: normal;
-}
+} */
 
 #sub-page .header a:hover {
     font-style: italic;
@@ -146,20 +146,37 @@ a:hover {
 
 
 @media only screen and (max-width:700px) {
+
+    body {
+        height: auto;
+    }
     
     #main-page div {
         display: block;
         padding: 1% 5%;
+        height: 25vh;
+    }
+
+    #main-page div:first-of-type {
+        height: 35vh;
+    }
+
+    #main-page div:last-of-type {
+        height: 15vh;
     }
 
     #main-page h1 {
-        font-size: 4rem;
+        white-space: normal;
+        display: inline;
+        word-wrap: break-word;
+        font-size: 5rem;
+        line-height: 5rem;
     }
 
     #main-page p {
         font-size: 1rem;
         padding-left: 0;
-        display: inline;
+        display: block;
         white-space: normal;
     }
 
@@ -195,6 +212,10 @@ a:hover {
 @media only screen and (max-width:1024px) {
     img {
         display: none;
+    }
+
+    a:hover {
+        font-style: italic;
     }
 }
 
