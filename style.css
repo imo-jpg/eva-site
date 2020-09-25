@@ -145,7 +145,7 @@ a:hover {
 }
 
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:1020px) {
 
     body {
         height: 100%;
@@ -226,9 +226,7 @@ a:hover {
         font-size: 4rem;
         white-space: normal;
     }
-}
 
-@media only screen and (max-width:1024px) {
     img {
         display: none;
     }
@@ -237,6 +235,16 @@ a:hover {
         font-style: italic;
     }
 }
+
+/* @media only screen and (max-width:1024px) {
+    img {
+        display: none;
+    }
+
+    a:hover {
+        font-style: italic;
+    }
+} */
 
 /* @media only screen and (max-width:400px) {
     #main-page p {
