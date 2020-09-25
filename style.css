@@ -153,37 +153,49 @@ a:hover {
     
     #main-page div {
         display: block;
-        padding: 1% 5%;
-        height: 23vh;
+        padding: 5% 5%;
+        height: 33vh;
         overflow-x: scroll;
     }
 
     #main-page div:first-of-type {
-        height: 30vh;
+        height: 100vh;
     }
 
-    #main-page div:last-of-type {
+    /* #main-page div:last-of-type {
         height: 24vh;
-    }
+    } */
 
     #main-page h1 {
-        /* white-space: normal; */
+        white-space: normal;
         display: inline;
-        /* word-wrap: break-word; */
-        font-size: 8rem;
-        /* line-height: 5rem; */
+        word-wrap: break-word;
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    #main-page #name h1 {
+        position: absolute;
+        top: 35vh;
+        left: -10%;
+        transform: rotate(-75deg);
+        font-size: 10rem;
+    }
+
+    #main-page #name p {
+        position: absolute;
+        top: 50vh;
+        left: 30%;
+        transform: rotate(-75deg);
+        width: 100%;
     }
 
     #main-page p {
         font-size: 1.25rem;
         padding-left: 0;
-        display: inline;
+        display: block;
         /* display: block; */
         /* white-space: normal; */
-    }
-
-    #main-page #name {
-        /* flex-wrap: wrap; */
     }
 
     img {
