@@ -154,34 +154,36 @@ a:hover {
     #main-page div {
         display: block;
         padding: 1% 5%;
-        height: 25vh;
+        height: 23vh;
+        overflow-x: scroll;
     }
 
     #main-page div:first-of-type {
-        height: 35vh;
+        height: 30vh;
     }
 
     #main-page div:last-of-type {
-        height: 15vh;
+        height: 24vh;
     }
 
     #main-page h1 {
-        white-space: normal;
+        /* white-space: normal; */
         display: inline;
-        word-wrap: break-word;
-        font-size: 5rem;
-        line-height: 5rem;
+        /* word-wrap: break-word; */
+        font-size: 8rem;
+        /* line-height: 5rem; */
     }
 
     #main-page p {
-        font-size: 1rem;
+        font-size: 1.25rem;
         padding-left: 0;
-        display: block;
-        white-space: normal;
+        display: inline;
+        /* display: block; */
+        /* white-space: normal; */
     }
 
     #main-page #name {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 
     img {
@@ -219,8 +221,8 @@ a:hover {
     }
 }
 
-@media only screen and (max-width:400px) {
+/* @media only screen and (max-width:400px) {
     #main-page p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
-}
+} */
