@@ -151,9 +151,9 @@ a:hover {
         height: 100%;
     }
 
-    #main-page {
+    #main-page, #sub-page {
         height: 100%;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
     
     #main-page div {
