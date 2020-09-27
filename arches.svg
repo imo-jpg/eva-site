@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="164px" viewBox="0 0 66 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Shape-Inspiration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-223.000000, -46.000000)">
+            <g id="Group-2" transform="translate(226.000000, 49.000000)">
+                <path d="M60,160 C60,84.3790283 60,41.045695 60,30 C60,13.4314575 46.5685425,0 30,0 C13.4314575,0 0,13.4314575 0,30 C0,41.045695 0,84.3790283 0,160" id="Oval-Copy-7" stroke="#F35F46" stroke-width="5" stroke-linejoin="round"></path>
+                <path d="M53,160 C53,85.9509379 53,44.7842712 53,36.5 C53,24.0735931 42.9264069,14 30.5,14 C18.0735931,14 8,24.0735931 8,36.5 C8,44.7842712 8,85.9509379 8,160" id="Oval-Copy-8" stroke="#F35F46" stroke-width="5" stroke-linejoin="round"></path>
+                <path d="M45,160 C45,87.6110455 45,48.6394546 45,43.0852273 C45,34.7538863 38.2842712,28 30,28 C21.7157288,28 15,34.7538863 15,43.0852273 C15,48.6394546 15,87.6110455 15,160" id="Oval-Copy-9" stroke="#F35F46" stroke-width="5" stroke-linejoin="round"></path>
+                <path d="M38,160 C38,89.1388561 38,52.3197273 38,49.5426136 C38,45.3769432 34.6421356,42 30.5,42 C26.3578644,42 23,45.3769432 23,49.5426136 C23,52.3197273 23,89.1388561 23,160" id="Oval-Copy-10" stroke="#F35F46" stroke-width="5" stroke-linejoin="round"></path>
+                <line x1="30.5" y1="53.5" x2="30.5" y2="160.5" id="Line" stroke="#F35F46" stroke-width="5"></line>
+                <circle id="Oval" fill="#F35F46" cx="30.5" cy="53.5" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
