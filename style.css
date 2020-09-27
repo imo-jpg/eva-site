@@ -1,20 +1,14 @@
 * {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    font-family: "Source Serif Pro", serif;
-    font-style: italic;
-    color: #ffffff;
+    font-family: "Epilogue", sans-serif;
+    color: #99EE53;
     margin: 0;
 }
 
 body {
     height: 100vh;
-}
-
-#main-page {
-    background: #FC835C;
-    /* background: linear-gradient(0deg, #E62325 0%, rgba(252,131,92,1) 100%); */
-    background: linear-gradient(0deg, #89A2F6 0%, #FC835C 100%);
+    background: #CAB07A;
 }
 
 #main-page div {
@@ -23,68 +17,45 @@ body {
     width: 100vw;
     height: 25vh;
     padding: 0 1%;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #99EE53;
+    align-items: center;
 }
 
 a {
-    color: #ffffff;
+    color: #99EE53;
     text-decoration: none;
 }
 
 #main-page h1, #sub-page h1 {
     white-space: nowrap;
-    font-weight: 200;
+    font-weight: 500;
     display: inline-block;
     position: relative;
     font-size: 10rem;
+    padding-top: 20px;
     margin: 0;
 }
 
 #main-page p {
     font-size: 2.25rem;
     padding-left: 20px;
-}
-
-#main-page #name {
-    align-items: baseline;
+    font-weight: 200;
 }
 
 a:hover {
-    font-style: normal;
-    cursor: pointer;
-}
-
-#main-page #name a:hover {
-    font-style: italic;
     cursor: pointer;
 }
 
 .left {
-    /* background: #FC835C; */
     justify-content: flex-start;
 }
 
 .right {
-    /* background: #89A2F6; */
     justify-content: flex-end;
 }
 
 #main-page img {
     width: 100%;
-}
-
-#sub-page {
-    background: #F35F46;
-    background: linear-gradient(0deg, #89A2F6 0%, #FC835C 100%);
-    /* background: linear-gradient(0deg, #E62325 0%, rgba(252,131,92,1) 100%); */
-}
-
-/* #sub-page .header a {
-    font-style: normal;
-} */
-
-#sub-page .header a:hover {
-    font-style: italic;
 }
 
 #sub-page div {
@@ -93,22 +64,8 @@ a:hover {
     width: 100vw;
     height: 25vh;
     padding: 0 1%;
-    border-bottom: 1px solid #ffffff;
-}
-
-#sub-page .publications {
-    /* background: #F35F46; */
-    background: #D28F95;
-}
-
-#sub-page .blog {
-    /* background: #EF4639; */
-    background: #B596BB;
-}
-
-#sub-page .connect {
-    /* background: #E62325; */
-    background: #89A2F6;
+    align-items: center;
+    border-bottom: 1px solid #99EE53;
 }
 
 #sub-page .content {
@@ -118,18 +75,16 @@ a:hover {
 
 #sub-page h1 {
     white-space: nowrap;
-    font-weight: 200;
+    font-weight: 500;
     display: inline-block;
     font-size: 10rem;
     margin: 0;
 }
 
 #sub-page .header {
-    /* display: block; */
+    display: flex;
     height: 50px;
-    background: #FC835C;
-    /* background-image: url(dots.svg);
-    background-size: 100%;  */
+    justify-content: space-between;
 }
 
 #sub-page .header img {
@@ -150,48 +105,38 @@ a:hover {
     body {
         height: 100%;
     }
-
-    #main-page, #sub-page {
-        height: 100%;
-        background-attachment: fixed;
-    }
     
     #main-page div {
         display: block;
         padding: 5% 5%;
         height: 33.33vh;
         overflow-x: scroll;
+        align-items: center;
     }
 
     #main-page div:first-of-type {
-        height: 100vh;
+        height: 40vh;
     }
 
-    /* #main-page div:last-of-type {
-        height: 24vh;
-    } */
+    #main-page div:last-of-type {
+        height: 20vh;
+    }
 
     #main-page h1 {
         white-space: normal;
         display: inline;
         word-wrap: break-word;
-        font-size: 5rem;
-        line-height: 6rem;
+        font-size: 4rem;
+        line-height: 4rem;
     }
 
     #main-page #name h1 {
-        position: absolute;
-        top: 35vh;
-        left: -10%;
-        transform: rotate(-75deg);
-        font-size: 10rem;
+        font-size: 6.5rem;
+        line-height: 6.5rem;
+
     }
 
     #main-page #name p {
-        position: absolute;
-        top: 50vh;
-        left: 30%;
-        transform: rotate(-75deg);
         width: 100%;
     }
 
@@ -199,8 +144,6 @@ a:hover {
         font-size: 1.25rem;
         padding-left: 0;
         display: block;
-        /* display: block; */
-        /* white-space: normal; */
     }
 
     img {
@@ -208,7 +151,6 @@ a:hover {
     }
 
     .right {
-        /* background: #89A2F6; */
         justify-content: flex-start;
     }
 
@@ -223,17 +165,19 @@ a:hover {
     }
 
     #sub-page h1 {
+        padding-top: 0;
         font-size: 4rem;
         white-space: normal;
     }
 
-    img {
-        display: none;
+    #sub-page p {
+        font-size: 1rem;
     }
 
-    a:hover {
-        font-style: italic;
+    #sub-page .header p {
+        font-size: .75rem;
     }
+
 }
 
 /* @media only screen and (max-width:1024px) {
