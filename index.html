@@ -5,28 +5,34 @@
         <meta property="og:title" content="Eva Marsh"/>
         <link href="style.css" type="text/css" rel="stylesheet" /> 
         <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200;500&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/intersection-observer"></script>
+        <script src="https://unpkg.com/scrollama"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body id="main-page">
-        <img id="dots" src="dots_circle.svg"></svg>
-        <img id="bolt" src="bolt.svg"></svg>
-        <img id="arches" src="arches.svg"></svg>
-        <img id="tubes" src="tubes.svg"></svg>
-        <img id="moons" src="moons.svg"></svg>
-        <img id="clover" src="clover.svg"></svg>
+            <section id="container">
+                <figure id="figure">
+                    <h1>Eva Marsh</h1>
+                    <p>Sexuality Educator and Researcher</p>
+                    <p class="small">scroll</p>
+                </figure>
+                <article>
+                    <div class="step">
+                        <img id="clover" src="clover.svg"></svg>
+                    </div>
+                    <div class="step">
+                        <img id="tubes" src="tubes.svg"></svg>
+                    </div>
+                    <div class="step">
+                        <img id="bolt" src="bolt.svg"></svg>
+                    </div>
+                    <div class="step">
+                        <img id="moons" src="moons.svg"></svg>
+                    </div>
 
-        <div id="name">
-            <h1><a href="#">Eva Marsh</a></h1> 
-            <p>Sexuality Educator and Researcher</p>
-        </div>
-        <div id="publications">
-            <h1><a href="publications.html">Published Work</a></h1>
-        </div>
-        <div id="blog">
-            <h1><a href="blog.html">Blog / Writings</a></h1> 
-        </div>
-        <div id="connect">
-            <h1><a href="connect.html">Connect</a></h1> 
-        </div>
+                </article>
+            </section>
+        <script src="script.js"></script>
     </body>
 </html>
