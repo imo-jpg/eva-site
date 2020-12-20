@@ -32,11 +32,17 @@ a {
 
 #main-page h1 a:hover {
     /* text-shadow: 5px 5px #B596BB; */
-    /* text-shadow: 5px 5px #984176; */
+    text-shadow: 5px 5px #984176;
+    /* font-weight: 700; */
 }
 
-a:hover {
-    font-weight: bold;
+.header .current {
+    text-shadow: 2px 2px #984176;
+    /* background: #984176; */
+}
+
+.header a:hover {
+    text-shadow: 2px 2px #984176;
 }
 
 #main-page h1, #sub-page h1 {
