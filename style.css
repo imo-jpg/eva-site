@@ -2,62 +2,41 @@
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
     font-family: "Epilogue", sans-serif;
-    /* color: #99EE53; */
     color: #550C39;
     margin: 0;
 }
 
 body {
     height: 100vh;
-    /* background: #CAB07A; */
     background: #D28F95;
 }
 
-#main-page div {
-    display: flex;
+div {
     overflow: hidden;
-    width: 100vw;
     height: 25vh;
     padding: 0 1%;
-    /* border-bottom: 1px solid #99EE53; */
     border-bottom: 1px solid #550C39;
     align-items: center;
 }
 
+.link {
+    display: flex;
+}
+
 a {
-    /* color: #99EE53; */
     color: #550C39;
     text-decoration: none;
 }
 
-#main-page h1 a:hover {
-    /* text-shadow: 5px 5px #B596BB; */
-    text-shadow: 5px 5px #984176;
-    /* font-weight: 700; */
-}
-
-.header .current {
-    text-shadow: 2px 2px #984176;
-    /* background: #984176; */
-}
-
-.header a:hover {
-    text-shadow: 2px 2px #984176;
-}
-
-#main-page h1, #sub-page h1 {
+h1 {
+    padding-top: 2%;
     white-space: nowrap;
     font-weight: 500;
-    display: inline-block;
-    position: relative;
     font-size: 10rem;
-    padding-top: 20px;
-    margin: 0;
 }
 
-#main-page p {
+p {
     font-size: 2.25rem;
-    padding-left: 20px;
     font-weight: 200;
 }
 
@@ -66,61 +45,49 @@ a:hover {
 }
 
 .left {
+    /* float: left; */
     justify-content: flex-start;
 }
 
 .right {
+    /* float: right; */
     justify-content: flex-end;
 }
 
-#main-page img {
-    width: 100%;
+.title {
+    border-bottom: none;
 }
 
-#sub-page div {
-    display: flex;
-    overflow: hidden;
-    width: 100vw;
-    height: 25vh;
-    padding: 0 1%;
-    align-items: center;
-    /* border-bottom: 1px solid #99EE53; */
+#name {
+    border-bottom: none;
+    width: 70%;
+}
+
+#descrip {
+    width: 30%;
+    border-bottom: none;
+}
+
+.preview {
+    display: none;
+}
+
+.expand {
+    border-bottom: none;
+}
+
+.show {
+    height: auto;
+    display: block;
+    padding: 20px;
     border-bottom: 1px solid #550C39;
 }
 
-#sub-page .content {
-    padding-top: 1%;
-    height: 10vh;
+.show .right {
+    float: right;
 }
 
-#sub-page h1 {
-    white-space: nowrap;
-    font-weight: 500;
-    display: inline-block;
-    font-size: 10rem;
-    margin: 0;
-}
-
-#sub-page .header {
-    display: flex;
-    height: 50px;
-    justify-content: space-between;
-}
-
-#sub-page .header img {
-    width: 30vw;
-}
-
-#sub-page p {
-    padding: 10px 0;
-    font-style: normal;
-    display: inline;
-    font-size: 2rem;
-    white-space: nowrap;
-}
-
-
-@media only screen and (max-width:1020px) {
+/* @media only screen and (max-width:1020px) {
 
     body {
         height: 100%;
@@ -153,7 +120,6 @@ a:hover {
     #main-page #name h1 {
         font-size: 6.5rem;
         line-height: 6.5rem;
-
     }
 
     #main-page #name p {
@@ -198,4 +164,4 @@ a:hover {
         font-size: .75rem;
     }
 
-}
+} */
