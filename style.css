@@ -36,8 +36,13 @@ h1 {
 }
 
 p {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 200;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 300;
 }
 
 a:hover {
@@ -54,18 +59,29 @@ a:hover {
     justify-content: flex-end;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding-top: 20px;
+}
+
 .title {
     border-bottom: none;
 }
 
 #name {
-    border-bottom: none;
-    width: 70%;
+    display: inline-block;
+    /* border-bottom: none; */
 }
 
 #descrip {
-    width: 30%;
-    border-bottom: none;
+    padding-left: 20px;
+    width: 25%;
+    display: inline-block;
+    /* border-bottom: none; */
 }
 
 .preview {
