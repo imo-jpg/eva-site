@@ -35,6 +35,10 @@ h1 {
     font-size: 10rem;
 }
 
+h1:hover {
+    cursor: pointer;
+}
+
 p {
     font-size: 2rem;
     font-weight: 200;
@@ -103,81 +107,19 @@ li {
     float: right;
 }
 
-/* @media only screen and (max-width:1020px) {
-
-    body {
-        height: 100%;
+@media only screen and (max-width:1020px) {
+    
+    div {
+        height: auto;
     }
     
-    #main-page div {
-        display: block;
-        padding: 5% 5%;
-        height: 33.33vh;
-        overflow-x: scroll;
-        align-items: center;
-    }
-
-    #main-page div:first-of-type {
-        height: 40vh;
-    }
-
-    #main-page div:last-of-type {
-        height: 20vh;
-    }
-
-    #main-page h1 {
+    h1 {
         white-space: normal;
-        display: inline;
-        word-wrap: break-word;
         font-size: 4rem;
-        line-height: 4rem;
     }
 
-    #main-page #name h1 {
-        font-size: 6.5rem;
-        line-height: 6.5rem;
-    }
-
-    #main-page #name p {
-        width: 75%;
-    }
-
-    #main-page p {
-        font-size: 1.25rem;
+    #descrip {
         padding-left: 0;
-        display: block;
+        width: auto;
     }
-
-    img {
-        display: none;
-    }
-
-    .right {
-        justify-content: flex-start;
-    }
-
-    #sub-page div {
-        display: block;
-        padding: 1% 5%;
-        height: auto;
-    }
-
-    #sub-page .content {
-        height: auto;
-    }
-
-    #sub-page h1 {
-        padding-top: 0;
-        font-size: 4rem;
-        white-space: normal;
-    }
-
-    #sub-page p {
-        font-size: 1rem;
-    }
-
-    #sub-page .header p {
-        font-size: .75rem;
-    }
-
-} */
+}
