@@ -12,14 +12,15 @@ body {
 }
 
 div {
+    height: 25vh;
     overflow: hidden;
     padding: 0 1%;
     border-bottom: 1px solid #009BEF;
     align-items: center;
 }
 
-#main-page div {
-    height: 25vh;
+#sub-page div {
+    height: auto;
 }
 
 .link {
