@@ -2,21 +2,24 @@
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
     font-family: "Epilogue", sans-serif;
-    color: #550C39;
+    color: #009BEF;
     margin: 0;
 }
 
 body {
     height: 100vh;
-    background: #D28F95;
+    background: linear-gradient(90deg, rgba(235,238,192,1) 0%, rgba(255,207,191,1) 100%);
 }
 
 div {
     overflow: hidden;
-    height: 25vh;
     padding: 0 1%;
-    border-bottom: 1px solid #550C39;
+    border-bottom: 1px solid #009BEF;
     align-items: center;
+}
+
+#main-page div {
+    height: 25vh;
 }
 
 .link {
@@ -24,7 +27,7 @@ div {
 }
 
 a {
-    color: #550C39;
+    color: #009BEF;
     text-decoration: none;
 }
 
@@ -44,9 +47,48 @@ p {
     font-weight: 200;
 }
 
+#sub-page p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 300;
+    padding-bottom: 20px;
+    width: 75%;
+}
+
+#sub-page li {
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 75%;
+}
+
+#sub-page #descrip {
+    font-size: 2rem;
+    width: 25%;
+}
+
+span {
+    font-style: italic;
+}
+
 h3 {
     font-size: 3rem;
     font-weight: 300;
+}
+
+#sub-page h3:first-of-type {
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.pulloutquote h3 {
+    font-style: italic;
+    padding: 40px;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 30px 0 10px 0;
 }
 
 a:hover {
@@ -54,22 +96,24 @@ a:hover {
 }
 
 .left {
-    /* float: left; */
     justify-content: flex-start;
 }
 
 .right {
-    /* float: right; */
     justify-content: flex-end;
 }
 
-ul {
+#main-page ul {
     list-style-type: none;
     padding: 0;
 }
 
 li {
     padding-top: 20px;
+}
+
+#main-page li p {
+    padding-top: 10px;
 }
 
 .title {
@@ -100,7 +144,7 @@ li {
     height: auto;
     display: block;
     padding: 20px;
-    border-bottom: 1px solid #550C39;
+    border-bottom: 1px solid #009BEF;
 }
 
 .show .right {
@@ -109,8 +153,9 @@ li {
 
 @media only screen and (max-width:1020px) {
     
-    div {
+    #main-page div, #sub-page div {
         height: auto;
+        padding: 0 5%;
     }
     
     h1 {
@@ -118,8 +163,29 @@ li {
         font-size: 4rem;
     }
 
-    #descrip {
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    #main-page #descrip, #sub-page #descrip {
         padding-left: 0;
+        width: auto;
+        font-weight: 200;
+    }
+
+    #main-page ul p {
+        font-size: 1.5rem;
+    }
+
+    #main-page ul {
+        padding-bottom: 10px;
+    }
+
+    #sub-page li {
+        width: auto;
+    }
+
+    #sub-page p {
         width: auto;
     }
 }
