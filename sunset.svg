@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="290px" height="130px" viewBox="0 0 290 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy</title>
+    <g id="2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy" transform="translate(145.000000, 64.495016) scale(1, -1) translate(-145.000000, -64.495016) translate(3.000000, 2.995016)" stroke="#5D1A38" stroke-width="7">
+            <path d="M228,122 C228,74.7796539 189.720346,36.5 142.5,36.5 C95.2796539,36.5 57,74.7796539 57,122" id="Oval-Copy-4"></path>
+            <line x1="0.5" y1="122" x2="283.5" y2="122" id="Line" stroke-linecap="square"></line>
+            <line x1="120" y1="-0.5" x2="120" y2="37.5" id="Line-2" stroke-linecap="square" transform="translate(120.000000, 18.500000) rotate(-20.000000) translate(-120.000000, -18.500000) "></line>
+            <line x1="163" y1="-0.5" x2="163" y2="37.5" id="Line-2" stroke-linecap="square" transform="translate(163.000000, 18.500000) rotate(-160.000000) translate(-163.000000, -18.500000) "></line>
+            <line x1="75.5" y1="22" x2="75.5" y2="60" id="Line-2" stroke-linecap="square" transform="translate(75.500000, 41.000000) rotate(-45.000000) translate(-75.500000, -41.000000) "></line>
+            <line x1="209.5" y1="22" x2="209.5" y2="60" id="Line-2" stroke-linecap="square" transform="translate(209.500000, 41.000000) rotate(-135.000000) translate(-209.500000, -41.000000) "></line>
+            <line x1="42.5" y1="72" x2="42.5" y2="110" id="Line-2" stroke-linecap="square" transform="translate(42.500000, 91.000000) rotate(-70.000000) translate(-42.500000, -91.000000) "></line>
+            <line x1="242.20832" y1="72" x2="242.20832" y2="110" id="Line-2" stroke-linecap="square" transform="translate(242.208320, 91.000000) rotate(-110.000000) translate(-242.208320, -91.000000) "></line>
+        </g>
+    </g>
+</svg>
